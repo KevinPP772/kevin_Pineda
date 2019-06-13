@@ -5,6 +5,11 @@ body{
     font-size: 15px;
     line-height: 1.5;
 }
+hr{
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 20px 0;
+}
 
 /* Utility Classes*/
 .main-container {
@@ -26,6 +31,10 @@ body{
     font-size: 18px;
 }
 
+/* Grid details */
+.row-padding{
+    padding: 0 8px;
+}
 /* Left Column*/
 .left-column{
     float:left;
@@ -41,5 +50,18 @@ body{
     left: 0;
     bottom: 0;
     color: #000000;   
+}
+
+/* Skill sets */
+.light-grey-bar {
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    font-size: 12px;
+}
+.teal-bar{
+    color: #ffffff;
+    text-align: right;
+    background-color: #009688;
+    border-radius: 16px;    
 }
 
