@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /* CSS Variables */
 :root{
-    --primary-color: #3549fd;
+    --primary-color: #53afa9;
     --light-grey: #f1f1f1; 
 }
 body{
@@ -45,6 +45,9 @@ span{
 .margin-left{
     margin-left: 16px;
 }
+.margin-top{
+    margin-top: 16px;
+}
 .margin-bottom{
     margin-bottom: 16px;
 }
@@ -79,7 +82,7 @@ span{
 /* Left Column*/
 .left-column{
     float:left;
-    width: 30%;
+    width: 32%;
 }
 .card-1 {    
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
@@ -101,7 +104,7 @@ span{
 /*Right Column*/
 .right-column{    
     float: right;
-    width: 69%;
+    width: 66.66666%;
 }
 
 
@@ -119,6 +122,11 @@ span{
 }
 .color-text{
     color: var(--primary-color);
+}
+.footer{
+    color: #ffffff;
+    background-color: var(--primary-color);
+    text-align: center;    
 }
 
 
