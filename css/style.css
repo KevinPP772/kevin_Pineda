@@ -10,6 +10,10 @@ hr{
     border-top: 1px solid #eeeeee;
     margin: 20px 0;
 }
+span{
+    font-size: 15px;
+    color: #009688;
+}
 
 
 /* Utility Classes*/
@@ -26,6 +30,9 @@ hr{
 }
 .margin-right{
     margin-right:16px;
+}
+.margin-left{
+    margin-left: 16px;
 }
 .icon-settings{
     /*color:#009688;*/
@@ -44,7 +51,7 @@ hr{
     padding-left: 8px;
     padding-right: 8px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 
@@ -97,5 +104,6 @@ hr{
 .teal-text{
     color: #009688;
 }
+
 
 
