@@ -5,6 +5,13 @@ body{
     font-size: 15px;
     line-height: 1.5;
 }
+a{
+    text-decoration: none;
+    color: #009688;    
+}
+a:hover{
+    font-weight: bold;
+}
 hr{
     border: 0;
     border-top: 1px solid #eeeeee;
@@ -33,6 +40,9 @@ span{
 }
 .margin-left{
     margin-left: 16px;
+}
+.margin-bottom{
+    margin-bottom: 16px;
 }
 .icon-settings{
     /*color:#009688;*/
@@ -65,12 +75,18 @@ span{
 /* Left Column*/
 .left-column{
     float:left;
-    width: 100%;
+    width: 30%;
 }
 .card-1 {    
     box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
     color: #505050;
     background-color: #ffffff;
+}
+.card-2{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color: #505050;
+    background-color: #ffffff;
+    
 }
 .display-text-bottomleft{
     position: absolute;
@@ -80,14 +96,10 @@ span{
 }
 /*Right Column*/
 .right-column{    
-    float: left;
-    width: 100%;
+    float: right;
+    width: 69%;
 }
-.card-2{
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-    color: #505050;
-    background-color: #ffffff;
-}
+
 
 /* Skill sets */
 .light-grey-bar {
