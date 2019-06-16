@@ -34,7 +34,14 @@ span{
     margin-right: auto;
 }
 .display-container{
-    position: relative;
+    position: relative;           
+    background-color: var(--light-grey);    
+}
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;      
 }
 .content{
     padding: 0.1em 16px;
