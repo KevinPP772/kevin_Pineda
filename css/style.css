@@ -78,7 +78,24 @@ span{
     text-align: center;
     border-radius: 7px;
 }
-
+/*Overlay img*/
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 15px;
+    
+    text-align: center;
+}
+.display-container:hover .overlay {
+    opacity: 1;
+}
 /* Grid details */
 .row-padding{
     content: "";
