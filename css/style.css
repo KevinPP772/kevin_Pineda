@@ -214,3 +214,17 @@ footer .footer-bottom{
     visibility: visible;
     opacity: 1;
 }
+
+@media screen and (max-width: 580px){
+    .languages {
+        display: none;
+    }
+    .left-column{
+        float: none;  
+        width: auto;      
+    }
+    .right-column{
+        float: none;  
+        width: auto;      
+    }
+}
