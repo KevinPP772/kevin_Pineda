@@ -15,9 +15,6 @@ a{
     text-decoration: none;
     color: var(--primary-color);    
 }
-.hover-opacity:hover{
-    opacity: 0.60;
-}
 a:hover{
     font-weight: bold;
 }
@@ -26,10 +23,14 @@ hr{
     border-top: 1px solid #eeeeee;
     margin: 20px 0;
 }
+.hover-opacity:hover{
+    opacity: 0.60;
+}
 span{
     font-size: 15px;
     color: var(--primary-color);
 }
+/*Utility Classes*/
 .main-container {
     max-width: 1180px;
     margin: auto;
@@ -173,4 +174,43 @@ footer ul li:first-child{
 footer .footer-bottom{
     background: #333333;
     padding: 0.5rem;
+}
+/* Popups */
+/* Popups container*/
+.popup{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.popup .popup-text{
+    visibility: hidden;
+    width: 200px;
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+/*Popup arrow*/
+.popup .popup-text::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555555 transparent transparent transparent;
+}
+/*Shows the popup on hover*/
+.popup:hover .popup-text{
+    visibility: visible;
+    opacity: 1;
 }
