@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 /* CSS Variables */
 :root{
-    --primary-color: rgb(53, 101, 202);
+    --primary-color: #1CB5E9;
     --light-grey: #f1f1f1; 
 }
 /* Utility Classes*/
